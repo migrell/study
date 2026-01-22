@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Time	a	b	sub	s	c	Operation
+==========================================
+               10000	 5	 3	0	 8	0	ADD
+               20000	 7	 9	0	 0	1	ADD
+               30000	12	 4	0	 0	1	ADD
+               40000	15	 1	1	14	1	SUB
+               50000	 8	 3	1	 5	1	SUB
+               60000	10	 6	1	 4	1	SUB
+               70000	 3	 8	1	11	0	SUB
+               80000	 0	 1	1	15	0	SUB
+==========================================
+$finish called at time : 80 ns : File "C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_addsub4.v" Line 53

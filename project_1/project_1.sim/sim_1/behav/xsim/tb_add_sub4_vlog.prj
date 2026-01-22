@@ -10,11 +10,13 @@ verilog xil_defaultlib  \
 "../../../../project_1.srcs/sources_1/new/incoder_8to3.v" \
 "../../../../project_1.srcs/sources_1/new/nor_gate.v" \
 "../../../../project_1.srcs/sources_1/new/pri_enc.v" \
+"../../../../project_1.srcs/sources_1/new/add_sub4.v" \
 "../../../../project_1.srcs/sim_1/new/tb_excess3.v" \
 "../../../../project_1.srcs/sim_1/new/tb_decoder3to8.v" \
 "../../../../project_1.srcs/sim_1/new/tb_fa16.v" \
 "../../../../project_1.srcs/sim_1/new/tb_nor_gate.v" \
 "../../../../project_1.srcs/sim_1/new/tb_rotator8bit.v" \
+"../../../../project_1.srcs/sim_1/new/tb_addsub4.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

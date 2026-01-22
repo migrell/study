@@ -1,4 +1,0 @@
-Running: xsim.dir/tb_rotator_8bit_behav/xsimk.exe -simmode gui -wdb tb_rotator_8bit_behav.wdb -simrunnum 0 -socket 53612
-Design successfully loaded
-Design Loading Memory Usage: 9508 KB (Peak: 9508 KB)
-Design Loading CPU Usage: 0 ms
