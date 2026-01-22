@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Jan 22 17:10:46 2026
-# Process ID: 10084
+# Start of session at: Thu Jan 22 18:43:34 2026
+# Process ID: 5460
 # Current directory: C:/Users/parkj/Desktop/study/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2168 C:\Users\parkj\Desktop\study\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19264 C:\Users\parkj\Desktop\study\project_1\project_1.xpr
 # Log file: C:/Users/parkj/Desktop/study/project_1/vivado.log
 # Journal file: C:/Users/parkj/Desktop/study/project_1\vivado.jou
 # Running On        :parkjiho
@@ -19,10 +19,7 @@
 # Host memory       :16672 MB
 # Swap memory       :17179 MB
 # Total Virtual     :33851 MB
-# Available Virtual :22433 MB
+# Available Virtual :22238 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/parkj/Desktop/study/project_1/project_1.xpr
-update_compile_order -fileset sources_1
-launch_simulation
-source tb_excess3.tcl

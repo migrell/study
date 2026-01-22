@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Jan 22 18:43:34 2026
-# Process ID: 5460
+# Start of session at: Thu Jan 22 17:10:46 2026
+# Process ID: 10084
 # Current directory: C:/Users/parkj/Desktop/study/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19264 C:\Users\parkj\Desktop\study\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2168 C:\Users\parkj\Desktop\study\project_1\project_1.xpr
 # Log file: C:/Users/parkj/Desktop/study/project_1/vivado.log
 # Journal file: C:/Users/parkj/Desktop/study/project_1\vivado.jou
 # Running On        :parkjiho
@@ -19,7 +19,7 @@
 # Host memory       :16672 MB
 # Swap memory       :17179 MB
 # Total Virtual     :33851 MB
-# Available Virtual :22238 MB
+# Available Virtual :22433 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/parkj/Desktop/study/project_1/project_1.xpr
@@ -95,4 +95,197 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
-open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1554.613 ; gain = 450.430
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 1553.207 ; gain = 447.191
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_excess3'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/parkj/Desktop/study/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_excess3' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/parkj/Desktop/study/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_excess3_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sources_1/new/excess3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd2excess3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_excess3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_excess3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/parkj/Desktop/study/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/parkj/Desktop/study/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_excess3_behav xil_defaultlib.tb_excess3 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_excess3_behav xil_defaultlib.tb_excess3 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bcd2excess3
+Compiling module xil_defaultlib.tb_excess3
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_excess3_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/parkj/Desktop/study/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_excess3_behav -key {Behavioral:sim_1:Functional:tb_excess3} -tclbatch {tb_excess3.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_excess3.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+bcd:0000, excess3:0011
+bcd:0001, excess3:0100
+bcd:0010, excess3:0101
+bcd:0011, excess3:0110
+bcd:0100, excess3:0111
+bcd:0101, excess3:1000
+bcd:0110, excess3:1001
+bcd:0111, excess3:1010
+bcd:1000, excess3:1011
+bcd:1001, excess3:1100
+bcd:1010, excess3:0000
+bcd:1011, excess3:0000
+bcd:1100, excess3:0000
+bcd:1101, excess3:0000
+bcd:1110, excess3:0000
+bcd:1111, excess3:0000
+bcd:0000, excess3:0011
+bcd:0001, excess3:0100
+bcd:0010, excess3:0101
+bcd:0011, excess3:0110
+bcd:0100, excess3:0111
+bcd:0101, excess3:1000
+bcd:0110, excess3:1001
+bcd:0111, excess3:1010
+bcd:1000, excess3:1011
+bcd:1001, excess3:1100
+bcd:1010, excess3:0000
+bcd:1011, excess3:0000
+bcd:1100, excess3:0000
+bcd:1101, excess3:0000
+bcd:1110, excess3:0000
+bcd:1111, excess3:0000
+bcd:0000, excess3:0011
+bcd:0001, excess3:0100
+bcd:0010, excess3:0101
+bcd:0011, excess3:0110
+bcd:0100, excess3:0111
+bcd:0101, excess3:1000
+bcd:0110, excess3:1001
+bcd:0111, excess3:1010
+bcd:1000, excess3:1011
+bcd:1001, excess3:1100
+bcd:1010, excess3:0000
+bcd:1011, excess3:0000
+bcd:1100, excess3:0000
+bcd:1101, excess3:0000
+bcd:1110, excess3:0000
+bcd:1111, excess3:0000
+bcd:0000, excess3:0011
+bcd:0001, excess3:0100
+bcd:0010, excess3:0101
+bcd:0011, excess3:0110
+bcd:0100, excess3:0111
+bcd:0101, excess3:1000
+bcd:0110, excess3:1001
+bcd:0111, excess3:1010
+bcd:1000, excess3:1011
+bcd:1001, excess3:1100
+bcd:1010, excess3:0000
+bcd:1011, excess3:0000
+bcd:1100, excess3:0000
+bcd:1101, excess3:0000
+bcd:1110, excess3:0000
+bcd:1111, excess3:0000
+bcd:0000, excess3:0011
+bcd:0001, excess3:0100
+bcd:0010, excess3:0101
+bcd:0011, excess3:0110
+bcd:0100, excess3:0111
+bcd:0101, excess3:1000
+bcd:0110, excess3:1001
+bcd:0111, excess3:1010
+bcd:1000, excess3:1011
+bcd:1001, excess3:1100
+bcd:1010, excess3:0000
+bcd:1011, excess3:0000
+bcd:1100, excess3:0000
+bcd:1101, excess3:0000
+bcd:1110, excess3:0000
+bcd:1111, excess3:0000
+bcd:0000, excess3:0011
+bcd:0001, excess3:0100
+bcd:0010, excess3:0101
+bcd:0011, excess3:0110
+bcd:0100, excess3:0111
+bcd:0101, excess3:1000
+bcd:0110, excess3:1001
+bcd:0111, excess3:1010
+bcd:1000, excess3:1011
+bcd:1001, excess3:1100
+bcd:1010, excess3:0000
+bcd:1011, excess3:0000
+bcd:1100, excess3:0000
+bcd:1101, excess3:0000
+bcd:1110, excess3:0000
+bcd:1111, excess3:0000
+bcd:0000, excess3:0011
+bcd:0001, excess3:0100
+bcd:0010, excess3:0101
+bcd:0011, excess3:0110
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_excess3_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1729.621 ; gain = 132.320
+close [ open C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sources_1/new/rotator.v w ]
+add_files C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sources_1/new/rotator.v
+update_compile_order -fileset sources_1
+set_property top rotator [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top rotator_8bit [current_fileset]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator.v w ]
+add_files -fileset sim_1 C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator.v
+update_compile_order -fileset sim_1
+set_property top rotator_8bit [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+reorder_files -fileset sim_1 -before C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator.v C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator.v
+export_ip_user_files -of_objects  [get_files C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator8bit.v w ]
+add_files -fileset sim_1 C:/Users/parkj/Desktop/study/project_1/project_1.srcs/sim_1/new/tb_rotator8bit.v
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top tb_rotator_8bit [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_rotator_8bit'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: "C:/Users/parkj/Desktop/study/project_1/project_1.sim/sim_1/behav/xsim/simulate.log"
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 22 18:42:38 2026...
