@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+At time 0: x_in=0000 y_in=0001, c_in=0, sum=0001, carry=0
+At time 1000: x_in=000f y_in=0001, c_in=0, sum=0010, carry=0
+At time 2000: x_in=ffff y_in=0000, c_in=1, sum=0000, carry=1
