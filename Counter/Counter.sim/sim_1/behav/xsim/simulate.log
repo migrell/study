@@ -1,2 +1,2 @@
 Time resolution is 1 ps
-$stop called at time : 410 ns : File "C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sim_1/new/bcd_up_down.v" Line 28
+$stop called at time : 110 ns : File "C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sim_1/new/tb_ring_counter.v" Line 23
