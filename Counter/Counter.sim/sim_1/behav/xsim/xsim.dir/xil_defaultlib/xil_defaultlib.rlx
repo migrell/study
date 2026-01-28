@@ -3,5 +3,5 @@
 May 22 2024
 19:03:11
 C:/Users/parkj/Desktop/study/Counter/Counter.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
-C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sim_1/new/tb_updown_counter.v,1769604670,verilog,,,,tb_up_down_counter,,,,,,,,
-C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sources_1/new/up_down_counter.v,1769602508,verilog,,C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sim_1/new/tb_updown_counter.v,,up_down_counter,,,,,,,,
+C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sim_1/new/bcd_up_down.v,1769608485,verilog,,,,bcd_up_down,,,,,,,,
+C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sources_1/new/bcd_up_down_counter.v,1769607908,verilog,,C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sim_1/new/bcd_up_down.v,,bcd_up_down_counter,,,,,,,,
