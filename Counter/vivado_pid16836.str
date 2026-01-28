@@ -143,3 +143,11 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/parkj/Desktop/study/Counter/Counter.gen/sources_1'. 
 // Tcl Message: Scanning sources... Finished scanning sources 
 // Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'. 
+// Project name: Counter; location: C:/Users/parkj/Desktop/study/Counter; part: xc7k70tfbv676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1553.531 ; gain = 445.914 
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// [GUI Memory]: 140 MB (+14573kb) [00:00:17]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcd_up_down_counter (bcd_up_down_counter.v)]", 1, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcd_up_down_counter (bcd_up_down_counter.v)]", 1, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Launch External Editor: '"C:/Users/parkj/AppData/Local/Programs/Microsoft VS Code/code.exe" -g "C:/Users/parkj/Desktop/study/Counter/Counter.srcs/sources_1/new/bcd_up_down_counter.v":3'
