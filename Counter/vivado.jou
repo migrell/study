@@ -23,3 +23,6 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/parkj/Desktop/study/Counter/Counter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_up_down_counter.tcl
