@@ -1,16 +1,17 @@
 `timescale 1ns / 1ps
 
 module d_latch(
-    input en,
     input d,
+    input en,
     output reg q
-    );
+);
+    always @(en) begin
+        if(en)
+        q<=d;
+    end
    
 
-    always @(en or d) begin
-        if(en)
-        q <= d;
-    end
+    
 
 
 endmodule
