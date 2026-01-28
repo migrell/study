@@ -5,11 +5,11 @@ SW Build: 5076996 on Wed May 22 18:37:14 MDT 2024
 IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
 IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
 
-Process ID (PID): 2764
+Process ID (PID): 13744
 License: Customer
 Mode: GUI Mode
 
-Current time: 	Wed Jan 28 21:01:57 KST 2026
+Current time: 	Wed Jan 28 21:52:11 KST 2026
 Time zone: 	Korean Standard Time (Asia/Seoul)
 
 OS: Windows 11
@@ -52,13 +52,13 @@ Vivado layouts directory: C:/Users/parkj/AppData/Roaming/Xilinx/Vivado/2024.1/da
 PlanAhead jar file: 	C:/Xilinx/Vivado/2024.1/lib/classes/planAhead.jar
 Vivado log file: 	C:/Users/parkj/Desktop/study/Counter/vivado.log
 Vivado journal file: 	C:/Users/parkj/Desktop/study/Counter/vivado.jou
-Engine tmp dir: 	C:/Users/parkj/Desktop/study/Counter/.Xil/Vivado-2764-parkjiho
+Engine tmp dir: 	C:/Users/parkj/Desktop/study/Counter/.Xil/Vivado-13744-parkjiho
 Non-Default Parameters:	[]
 
 Xilinx & AMD Environment Variables
 --------------------------------------------------------------------------------------------
 RDI_APPROOT: C:/Xilinx/Vivado/2024.1
-RDI_ARGS:  -gui_launcher_event rodinguilauncherevent17340 "C:\Users\parkj\Desktop\study\Counter\Counter.xpr"
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent9384 "C:\Users\parkj\Desktop\study\Counter\Counter.xpr"
 RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
 RDI_BASEROOT: C:/Xilinx/Vivado
 RDI_BINDIR: C:/Xilinx/Vivado/2024.1/bin
@@ -86,7 +86,7 @@ RDI_PYTHON3_VERSION: 3.8.3
 RDI_PYTHONHOME: C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3
 RDI_PYTHONPATH: C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib\site-packages
 RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib
-RDI_SESSION_INFO: C:\Users\parkj\Desktop\study\Counter:PARKJIHO-2026-01-28_21-01-42.68
+RDI_SESSION_INFO: C:\Users\parkj\Desktop\study\Counter:PARKJIHO-2026-01-28_21-51-57.20
 RDI_SHARED_DATA: C:/Xilinx/SharedData/2024.1/data
 RDI_TPS_ROOT: C:/Xilinx/Vivado/2024.1/tps/win64
 RDI_USE_JDK21: True
@@ -101,9 +101,9 @@ _RDI_BINROOT: C:\Xilinx\Vivado\2024.1\bin
 _RDI_CWD: C:\Users\parkj\Desktop\study\Counter
 
 
-GUI allocated memory:	512 MB
+GUI allocated memory:	844 MB
 GUI max memory:		4,072 MB
-Engine allocated memory: 986 MB
+Engine allocated memory: 1,067 MB
 
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -117,7 +117,7 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: DEBUG_PROBE_SET_CHANGE
 // TclEventType: FLOW_ADDED
 // Tcl Message: open_project C:/Users/parkj/Desktop/study/Counter/Counter.xpr 
-// HMemoryUtils.trashcanNow. Engine heap size: 1,056 MB. GUI used memory: 70 MB. Current time: 1/28/26, 9:01:58 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 68 MB. Current time: 1/28/26, 9:52:12 PM KST
 // TclEventType: MSGMGR_MOVEMSG
 // TclEventType: FILE_SET_CHANGE
 // TclEventType: FILE_SET_NEW
@@ -136,9 +136,9 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: PROJECT_DASHBOARD_GADGET_NEW
 // TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
 // TclEventType: PROJECT_NEW
-// [GUI Memory]: 120 MB (+123291kb) [00:00:15]
-// [Engine Memory]: 1,192 MB (+1098500kb) [00:00:15]
-// WARNING: HEventQueue.dispatchEvent() is taking  1786 ms.
+// [GUI Memory]: 118 MB (+120978kb) [00:00:15]
+// [Engine Memory]: 1,169 MB (+1073785kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  1518 ms.
 // Tcl Message: open_project C:/Users/parkj/Desktop/study/Counter/Counter.xpr 
 // Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/parkj/Desktop/study/Counter/Counter.gen/sources_1'. 
 // Tcl Message: Scanning sources... Finished scanning sources 

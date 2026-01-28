@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Jan 28 21:51:58 2026
-# Process ID: 13744
+# Start of session at: Wed Jan 28 21:31:33 2026
+# Process ID: 7860
 # Current directory: C:/Users/parkj/Desktop/study/Counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9384 C:\Users\parkj\Desktop\study\Counter\Counter.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7568 C:\Users\parkj\Desktop\study\Counter\Counter.xpr
 # Log file: C:/Users/parkj/Desktop/study/Counter/vivado.log
 # Journal file: C:/Users/parkj/Desktop/study/Counter\vivado.jou
 # Running On        :parkjiho
@@ -19,7 +19,7 @@
 # Host memory       :16672 MB
 # Swap memory       :17179 MB
 # Total Virtual     :33851 MB
-# Available Virtual :19769 MB
+# Available Virtual :18616 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/parkj/Desktop/study/Counter/Counter.xpr
@@ -95,4 +95,12 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
-open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 1796.781 ; gain = 357.141
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 1552.531 ; gain = 452.098
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_up_down_counter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: "C:/Users/parkj/Desktop/study/Counter/Counter.sim/sim_1/behav/xsim/simulate.log"
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 28 21:32:04 2026...
